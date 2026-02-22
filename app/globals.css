@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #080d18;
+  color: #f0f0f0;
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.pulse-dot {
+  animation: pulse-dot 2s infinite;
+}
+
+@layer components {
+  .section-label {
+    @apply inline-flex items-center gap-2 text-xs font-bold tracking-widest uppercase text-accent mb-4;
+  }
+  .section-label::before {
+    content: '';
+    @apply block w-1.5 h-1.5 rounded-full bg-accent;
+  }
+  .btn-primary {
+    @apply inline-block bg-accent text-bg font-bold text-sm px-7 py-3 rounded-lg transition-all duration-200 hover:opacity-85 hover:-translate-y-px;
+  }
+  .btn-secondary {
+    @apply inline-block bg-transparent text-white font-semibold text-sm px-7 py-3 rounded-lg border border-border2 transition-all duration-200 hover:border-muted2 hover:-translate-y-px;
+  }
+  .tag {
+    @apply text-xs font-medium text-muted bg-bg3 border border-border2 px-3 py-1 rounded-md transition-colors duration-200 hover:text-white hover:border-muted2;
+  }
+  .tag-featured {
+    @apply text-xs font-medium text-accent bg-accent/10 border border-accent/25 px-3 py-1 rounded-md;
+  }
+}
