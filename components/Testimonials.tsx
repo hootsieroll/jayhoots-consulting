@@ -28,7 +28,7 @@ export default function Testimonials() {
         <p className="text-muted text-lg max-w-[50ch] leading-relaxed mb-12">
           Feedback from colleagues, clients, and teams I&apos;ve led.
         </p>
-        <div className="grid gap-5 opacity-40" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
+        <div className="grid gap-5" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
           {testimonials.map((t, i) => (
             <div key={i} className="bg-bg2 border border-border rounded-2xl p-8 flex flex-col gap-5">
               <blockquote className="text-sm text-muted leading-relaxed italic">
