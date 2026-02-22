@@ -12,7 +12,7 @@ export default function About() {
             <div className="space-y-4 text-muted text-sm leading-relaxed">
               <p>
                 I&apos;m Jay Hoots — a senior software engineer, team lead, and technical strategist based in{" "}
-                <strong className="text-white font-semibold">Asheville, NC</strong>, working remotely with clients across the US.
+                <strong className="text-white font-semibold">Atlanta, GA</strong>, working remotely with clients across the US.
               </p>
               <p>
                 My career spans two decades of building software that matters — from{" "}
@@ -41,7 +41,7 @@ export default function About() {
             {[
               {
                 title: "Currently",
-                body: "Open to new consulting engagements — retainer and project-based. Based in Asheville, NC, working fully remote.",
+                body: "Open to new consulting engagements — retainer and project-based. Based in Atlanta, GA, working fully remote.",
               },
               {
                 title: "Core Expertise",
