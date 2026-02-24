@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-10 py-5 bg-bg/88 backdrop-blur-md border-b border-border">
       <a href="#" className="text-sm font-bold tracking-tight text-white no-underline">
-        Jay <span className="text-accent">Hoots</span>
+        In Session <span className="text-accent">Co.</span>
       </a>
       <ul className="hidden md:flex items-center gap-8 list-none">
         <li><a href="#services" className="text-muted text-sm font-medium hover:text-white transition-colors no-underline">Services</a></li>

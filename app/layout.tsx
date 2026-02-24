@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Jay Hoots — Fractional CTO & Engineering Leader",
+  title: "In Session Co. — Engineering Leadership for Startups",
   description:
-    "Senior engineering leadership for startups and growing companies. Fractional CTO, front-end architecture, design systems, and team mentorship.",
+    "Senior engineering leadership without the full-time overhead. Fractional CTO, front-end architecture, design systems, and team mentorship — with Jay Hoots.",
   openGraph: {
-    title: "Jay Hoots — Fractional CTO & Engineering Leader",
+    title: "In Session Co. — Engineering Leadership for Startups",
     description:
-      "I help startups and growing companies build better software, make smarter architecture decisions, and scale with confidence.",
+      "Senior engineering leadership without the full-time overhead. Fractional CTO, front-end architecture, design systems, and team mentorship.",
     type: "website",
   },
 };

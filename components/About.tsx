@@ -7,31 +7,30 @@ export default function About() {
           <div>
             <div className="section-label">About</div>
             <h2 className="text-4xl md:text-5xl font-extrabold tracking-tighter mb-6">
-              The engineer behind the work
+              The person behind the work
             </h2>
             <div className="space-y-4 text-muted text-sm leading-relaxed">
               <p>
-                I&apos;m Jay Hoots — a senior software engineer, team lead, and technical strategist based in{" "}
-                <strong className="text-white font-semibold">Atlanta, GA</strong>, working remotely with clients across the US.
+                Hey — I&apos;m Jay, founder of{" "}
+                <strong className="text-white font-semibold">In Session Co.</strong> Senior engineer, team lead, and technical strategist based in{" "}
+                <strong className="text-white font-semibold">Atlanta, GA</strong>, working with clients across the US.
               </p>
               <p>
-                My career spans two decades of building software that matters — from{" "}
-                <strong className="text-white font-semibold">Disney+ streaming infrastructure</strong> to CNN&apos;s election
-                night app, from geospatial tools used in hurricane disaster response to healthcare e-commerce platforms.
-                I&apos;ve led teams, architected systems, and shipped products across more industries than most engineers
-                see in a lifetime.
+                Two decades of building software that actually ships — from{" "}
+                <strong className="text-white font-semibold">Disney+ streaming infrastructure</strong> to CNN&apos;s
+                election night app, from geospatial tools used in hurricane disaster response to healthcare e-commerce
+                platforms. I&apos;ve led teams, architected systems, and shipped products across more industries than
+                most engineers see in a lifetime.
               </p>
               <p>
-                I started my career as a{" "}
-                <strong className="text-white font-semibold">jazz musician</strong> — a BA in Jazz Performance from UNC
-                Asheville — before pivoting into software. That background shaped how I think: I&apos;m trained to listen
-                carefully, improvise under pressure, and find creative solutions within constraints. It shows up every day
-                in how I work with clients and teams.
+                Before software, I was a{" "}
+                <strong className="text-white font-semibold">jazz musician</strong> — BA in Jazz Performance from UNC
+                Asheville. That background never left me. I listen before I talk, I improvise under pressure, and I find
+                creative solutions within real constraints. It shows up in every client engagement.
               </p>
               <p>
-                My approach is pragmatic and honest. I&apos;ll tell you what your codebase actually needs, not what&apos;s
-                trendy. I&apos;ll help you hire the right people, set realistic timelines, and build something you&apos;ll
-                be proud of for years.
+                No fluff, no trend-chasing. I&apos;ll tell you what your codebase actually needs, help you build the
+                right team, and make sure what you ship is something you&apos;re proud of years from now.
               </p>
             </div>
           </div>
